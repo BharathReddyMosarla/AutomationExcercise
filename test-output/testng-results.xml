@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T13:25:09 IST" name="Suite" finished-at="2025-06-26T13:26:38 IST" duration-ms="88539">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T13:25:09 IST" name="Test" finished-at="2025-06-26T13:26:38 IST" duration-ms="88539">
+      <class name="Tests.Testcase04">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.Testcase04@1cf6d1be]" started-at="2025-06-26T13:26:10 IST" name="init" finished-at="2025-06-26T13:26:16 IST" duration-ms="5913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="logoutUser()[pri:0, instance:Tests.Testcase04@1cf6d1be]" started-at="2025-06-26T13:26:16 IST" name="logoutUser" finished-at="2025-06-26T13:26:38 IST" duration-ms="21701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Testcase04@1cf6d1be]" started-at="2025-06-26T13:26:38 IST" name="getResult" finished-at="2025-06-26T13:26:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutUser status=SUCCESS method=Testcase04.logoutUser()[pri:0, instance:Tests.Testcase04@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:Tests.Testcase04@1cf6d1be]" started-at="2025-06-26T13:26:38 IST" name="reportGenerate" finished-at="2025-06-26T13:26:38 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- Tests.Testcase04 -->
+      <class name="Tests.Testcase03">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.Testcase03@74e28667]" started-at="2025-06-26T13:25:56 IST" name="init" finished-at="2025-06-26T13:26:03 IST" duration-ms="6305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginUserNon()[pri:0, instance:Tests.Testcase03@74e28667]" started-at="2025-06-26T13:26:03 IST" name="loginUserNon" finished-at="2025-06-26T13:26:10 IST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserNon -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Testcase03@74e28667]" started-at="2025-06-26T13:26:10 IST" name="getResult" finished-at="2025-06-26T13:26:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUserNon status=SUCCESS method=Testcase03.loginUserNon()[pri:0, instance:Tests.Testcase03@74e28667] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:Tests.Testcase03@74e28667]" started-at="2025-06-26T13:26:10 IST" name="reportGenerate" finished-at="2025-06-26T13:26:10 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- Tests.Testcase03 -->
+      <class name="Tests.Testcase02">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.Testcase02@7161d8d1]" started-at="2025-06-26T13:25:28 IST" name="init" finished-at="2025-06-26T13:25:34 IST" duration-ms="5814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginUser()[pri:0, instance:Tests.Testcase02@7161d8d1]" started-at="2025-06-26T13:25:34 IST" name="loginUser" finished-at="2025-06-26T13:25:56 IST" duration-ms="22210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Testcase02@7161d8d1]" started-at="2025-06-26T13:25:56 IST" name="getResult" finished-at="2025-06-26T13:25:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUser status=SUCCESS method=Testcase02.loginUser()[pri:0, instance:Tests.Testcase02@7161d8d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:Tests.Testcase02@7161d8d1]" started-at="2025-06-26T13:25:56 IST" name="reportGenerate" finished-at="2025-06-26T13:25:56 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- Tests.Testcase02 -->
+      <class name="Tests.Testcase01">
+        <test-method is-config="true" signature="init()[pri:0, instance:Tests.Testcase01@7ef82753]" started-at="2025-06-26T13:25:09 IST" name="init" finished-at="2025-06-26T13:25:15 IST" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="registerUser()[pri:0, instance:Tests.Testcase01@7ef82753]" started-at="2025-06-26T13:25:15 IST" name="registerUser" finished-at="2025-06-26T13:25:28 IST" duration-ms="12964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.Testcase01@7ef82753]" started-at="2025-06-26T13:25:28 IST" name="getResult" finished-at="2025-06-26T13:25:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerUser status=SUCCESS method=Testcase01.registerUser()[pri:0, instance:Tests.Testcase01@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:Tests.Testcase01@7ef82753]" started-at="2025-06-26T13:25:28 IST" name="reportGenerate" finished-at="2025-06-26T13:25:28 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+      </class> <!-- Tests.Testcase01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
