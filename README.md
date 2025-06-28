@@ -38,29 +38,6 @@ A total of **26 test cases** have been automated. Sample highlights:
 
 ---
 
-## 🔗 API Test Coverage
-
-APIs covered from the **Automation Exercise API** section include:
-
-| API Scenario             | Method | Endpoint                    | Expected Code   |
-| ------------------------ | ------ | --------------------------- | --------------- |
-| Get All Products         | GET    | `/api/productsList`         | 200             |
-| Invalid POST on Products | POST   | `/api/productsList`         | 405             |
-| Get All Brands           | GET    | `/api/brandsList`           | 200             |
-| Invalid PUT on Brands    | PUT    | `/api/brandsList`           | 405             |
-| Search Product           | POST   | `/api/searchProduct`        | 200 / 400       |
-| Verify Login             | POST   | `/api/verifyLogin`          | 200 / 400 / 404 |
-| Create User Account      | POST   | `/api/createAccount`        | 201             |
-| Delete User Account      | DELETE | `/api/deleteAccount`        | 200             |
-| Update User Account      | PUT    | `/api/updateAccount`        | 200             |
-| Get User Detail by Email | GET    | `/api/getUserDetailByEmail` | 200             |
-
-> 📂 Test Classes: `src/test/java/testcases/`
-> 📂 POJOs & Payloads: `src/test/java/pojo/`, `payloads/`
-> 📂 Endpoints: `routes/Routes.java`
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -105,13 +82,11 @@ automation-exercise/
 
 ## ⚙️ Framework Features
 
-* **Data-Driven Testing** via JSON / Excel
+* **Data-Driven Testing** via  Excel
 * **Parallel Test Execution** using TestNG
 * **Browser Support**: Chrome, Firefox (can extend)
 * **Failure Screenshot Capture** integrated
-* **Dynamic Data Generation** using Java Faker
-* **Schema Validation** for API responses
-* **Reusable Page Objects & API Payloads**
+* **Reusable Page Objects **
 
 ---
 
