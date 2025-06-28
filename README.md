@@ -5,7 +5,6 @@
 This project automates **Functional UI Testing**  for the [Automation Exercise](https://automationexercise.com) practice website. The framework covers:
 
 * ✅ 26 **Functional UI Test Cases** (from registration, login to checkout, invoice, and scroll tests)
-* 🔗 14 **REST API endpoints** (user, product, login, brand, search modules)
 * 🧪 Combined test framework using Java, Selenium, TestNG, Maven, and reporting libraries
 
 ---
